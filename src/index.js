@@ -6,9 +6,7 @@ export const greetUser = () => {
   return userName;
 };
 
-const getRandomNumber = () => {
-  return Math.floor(Math.random() * Math.floor(1000));
-};
+const getRandomNumber = () => Math.floor(Math.random() * Math.floor(1000));
 
 export const checkForEven = () => {
   console.log('Welcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".');
